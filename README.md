@@ -1,5 +1,7 @@
 # detecting-sms-spam
-Multinomial Naive Bayes model created to detect SMS/text message spam
+
+# Description
+This project is a web app that uses a Multinomial Naive Bayes model to detect SMS/text message spam. A dataset of spam and ham (non-spam) messages was obtained from Kaggle. The model was created and trained using Google Colab and downloaded and saved into the <code>model.pkl</code> file. A web app was built using the Streamlit library in Python in order to send data to the model.
 
 ## Run on web
 Hosted on the Streamlit Cloud Service at https://detecting-sms-spam.streamlit.app/. 
@@ -15,7 +17,5 @@ You can enter the message you would like to check in the available input box.
 Original dataset available at: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
 
 Kaggle .csv file: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
-
-See all of my code on my Github: https://github.com/tg1702/detecting-sms-spam
 
 Colab file: https://colab.research.google.com/drive/18ZqnOXJ0KCw6PDuNiV1FioJGFyAjsVkG?usp=sharing
