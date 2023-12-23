@@ -2,9 +2,17 @@
 Multinomial Naive Bayes model created to detect SMS/text message spam
 
 ## Run on web
-Hosted on Render at https://text-spam-detection.onrender.com. 
+Hosted on the Streamlit Cloud Service at https://detecting-sms-spam.streamlit.app/. 
 You can enter the message you would like to check in the available input box.
 
+## Install and Run locally
+1. Clone the repo using <code>git clone</code>
+2. Make sure the following libraries are installed in your Python venv.
+  streamlit
+  nltk
+  scikit
+4. Once the libraries are installed, run the command <code>streamlit run app.py</code> to view the streamlit app
+   
 ## About Project
 Original dataset available at: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
 
