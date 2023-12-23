@@ -7,10 +7,8 @@ You can enter the message you would like to check in the available input box.
 
 ## Install and Run locally
 1. Clone the repo using <code>git clone</code>
-2. Make sure the following libraries are installed in your Python venv.
-  streamlit
-  nltk
-  scikit
+2. Make sure the following libraries are installed in your Python venv. These are located in the requirements.txt file and can be installed using<br>
+   <code>!pip install -r requirements.txt </code>
 4. Once the libraries are installed, run the command <code>streamlit run app.py</code> to view the streamlit app
    
 ## About Project
