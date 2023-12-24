@@ -2,13 +2,13 @@ import streamlit as st
 import pickle
 from functions import transform_text
 
-from sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_score
 
 st.set_page_config(page_title='Text Message Spam Classifier', layout='wide', initial_sidebar_state='auto')
 
-cv = pickle.load(open('vectorizer.pkl', 'rb'))
-model = pickle.load(open('model.pkl', 'rb'))
+cv = pickle.load(open('./model_data/vectorizer.pkl', 'rb'))
+model = pickle.load(open('./model_data/model.pkl', 'rb'))
 
 
 st.title("Text Message Spam Classifier")
