@@ -14,8 +14,13 @@ You can enter the message you would like to check in the available input box.
 4. Once the libraries are installed, run the command <code>streamlit run app.py</code> to view the streamlit app
    
 ## About Project
+
 Original dataset available at: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
+
+Tutorial referenced: https://www.youtube.com/watch?v=YncZ0WwxyzU
 
 Kaggle .csv file: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
-Colab file: https://colab.research.google.com/drive/18ZqnOXJ0KCw6PDuNiV1FioJGFyAjsVkG?usp=sharing
+My Colab file: https://colab.research.google.com/drive/18ZqnOXJ0KCw6PDuNiV1FioJGFyAjsVkG?usp=sharing
+
+
