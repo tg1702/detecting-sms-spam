@@ -42,7 +42,7 @@ st.markdown(
     " Spam messages contain certain frequently-used keywords, helping a program to discern them from normal messages."
     " Here are some of the most common spam keywords:")
 
-st.image("keywords.png")
+st.image("./images/keywords.png")
 st.caption("Word cloud showing most common spam words. See %s for more " % colab_url)
 
 st.header("About Project")
