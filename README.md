@@ -17,7 +17,7 @@ You can enter the message you would like to check in the available input box.
 
 Original dataset available at: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
 
-Tutorial referenced for model building: https://www.youtube.com/watch?v=YncZ0WwxyzU
+Tutorial referenced for model training: https://www.youtube.com/watch?v=YncZ0WwxyzU
 
 Kaggle .csv file: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
